@@ -10,7 +10,7 @@ int main()
         cout<<"Ingrese un valor: ";
         cin>>valores;
         cont++;
-    }while(valores>0);
+    }while(valores>=0);
 
     cout<<"La cantidad de valores que se ingresaron fueron: "<<cont;
     return 0;
